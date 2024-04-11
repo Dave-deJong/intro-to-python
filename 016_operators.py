@@ -105,6 +105,13 @@ print(f"2 ** 3 = {expr} (should be 8)")
 # >>=   	x >>= 3	      x = x >> 3	
 # <<=	    x <<= 3	      x = x << 3
 
+# There are Comparison Operators
+# Logical Operators
+# Identity Operators
+# Membership Operators
+# Bitwise Operators
+
+
 # OPERATOR PLAYGROUND ENDS
 
 # Happy? Move on to 017_expressions.py
