@@ -74,7 +74,7 @@ print("Function: has_five_chars")
 
 def has_five_chars(the_str):
   if len(the_str) == 5:
-    return f"{the_str.upper()} is five characters long"
+    return f"{the_str} is five characters long"
   else:
     return "Not five characters"
 
