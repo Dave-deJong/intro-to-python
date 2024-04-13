@@ -62,11 +62,7 @@ def shorten_extremely_long_words(words):
 
 def format_display(words):
   display = "These words are quite long: "
-  for word in words:
-    display += f"{word}, "
-  if display[-2] == ",":
-    display = display[:-2]
-  return display
+  return display + ", ".join(words)
 
 check_that_these_are_equal(
   report_long_words([
