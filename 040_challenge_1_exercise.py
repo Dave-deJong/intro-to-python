@@ -37,16 +37,11 @@ def report_long_words(words):
   return display_words
 
 def remove_hyphened_words(words):
+  none_hyphened = []
   for word in words:
-    i = 0
-    while i < len(word):
-      if word[i] == "-":
-        i += 1
-        words.remove(word)
-        break
-      else:
-        i += 1
-  return words
+    if "-" not in word:
+      none_hyphened.append(word)
+  return none_hyphened
 
 def find_long_words(words):
   long_words = []
